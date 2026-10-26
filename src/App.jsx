@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Button from './component/button'
+import hero from './component/hero'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -70,7 +71,7 @@ function App() {
 
       <div class="flex items-center gap-4">
          <a href="#"
-            class="text-slate-900 text-sm font-semibold hover:text-blue-700 dark:text-slate-50 dark:hover:text-blue-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">Log
+            className="text-slate-900 mb-5 text-sm font-semibold hover:text-blue-700 dark:text-slate-50 dark:hover:text-blue-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">Log
             in</a>
          {/* <a href="#"
             class="py-2 px-3.5 text-sm rounded-md font-semibold cursor-pointer text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">Sign
@@ -91,6 +92,25 @@ function App() {
       </div>
    </div>
 </nav>
+
+
+{hero()};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </>
   )
 }
